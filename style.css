@@ -1,3 +1,41 @@
 h1 {
-    font: roboto;
+    font-family: Roboto;
+}
+
+.navbar {
+	margin:10px;
+	width:900px;
+	font-family: Roboto;
+}
+.navbar li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:0px;
+	border:1px solid #000;
+    padding: 2px;
+    
+}
+
+.navbar a {
+	display:block;
+	padding:0px;
+	text-decoration:none;
+	background-color:white;
+	color:black;
+}
+
+.navbar a:hover {
+	background-color:white;
+	color:navy;
+}
+
+.name {
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    font-size: x-large;
+}
+.p {
+    
 }
