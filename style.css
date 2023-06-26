@@ -90,7 +90,8 @@ h1 {
     text-align: justify;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: "roboto"     
+    font-size: medium;
+    font-weight: 100;
 }
 
 .p1 {
@@ -116,3 +117,48 @@ h2{
     text-align: center;
     padding-top: 20px;
 }
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  textarea {
+    height: 100px;
+  }
+
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: #45a049;
+  }
+
+  @media screen and (max-width: 600px) 
+    .mb {
+      max-width: 300px;
+    }
