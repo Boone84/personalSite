@@ -158,7 +158,8 @@ h2{
     background-color: #45a049;
   }
 
-  @media screen and (max-width: 600px) 
+  @media screen and (max-width: 600px) {
     .mb {
       max-width: 300px;
     }
+}
