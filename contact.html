@@ -7,37 +7,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="mb">
-    <h3>
-        <nav class="navbar">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </nav>
-    </h3>
-    <div class="container">
-        <h2>Contact Form</h2>
+    <section class="main">
+        <h3>
+            <nav class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </nav>
+        </h3>
+        <div class="container">
+            <h2>Contact Form</h2>
             <form action="#" method="post">
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
                 </div>
-                <div class="form-group">
+                    <div class="form-group">
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
                 </div>
-                <div class="form-group">
+                    <div class="form-group">
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" required></textarea>
                 </div>
-                <div class="form-group">
-                    <input type="submit" value="Submit" class="btn">
+                    <div class="form-group">
+                    <input class="submit" type="submit" value="Submit">
                 </div>
             </form>
-      </div>
+        </div>
+        <footer>
+            <div class="social-links">
+                <a href="#" class="social-link"><img src="photos/facebook.png" alt="Facebook"></a>
+                <a href="#" class="social-link"><img src="photos/twitter.png" alt="Twitter"></a>
+                <a href="#" class="social-link"><img src="photos/instagram.png" alt="Instagram"></a>
+                <a href="#" class="social-link"><img src="photos/linkedin.png" alt="LinkedIn"></a>
+            </div>
+            </footer>
+    </section>
     
 </body>
-    <footer class="foot">
-        <p>social media links</p>    
-    </footer>
+
+  
 </html>
